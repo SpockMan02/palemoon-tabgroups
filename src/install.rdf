@@ -6,14 +6,15 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>firefox-tabgroups@mozilla.com</em:id>
     <em:name>Tab Groups</em:name>
-    <em:version>0.1</em:version>
+    <em:version>0.2</em:version>
     <em:creator>Mozilla</em:creator>
-    <em:description>Provides tab groups for Firefox.</em:description>
+    <em:description>Provides tab groups (Panorama).</em:description>
+    <em:contributor>Moonchild</em:contributor>
 
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>20.*</em:minVersion>
+        <em:minVersion>24.0</em:minVersion>
         <em:maxVersion>99.*</em:maxVersion>
       </Description>
     </em:targetApplication>
