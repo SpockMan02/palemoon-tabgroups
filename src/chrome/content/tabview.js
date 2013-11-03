@@ -37,6 +37,7 @@ XPCOMUtils.defineLazyGetter(this, "gPrefBranch", function() {
   return Services.prefs.getBranch("browser.panorama.");
 });
 
+/* Changed for v24 code base: remove /gre for location change */
 XPCOMUtils.defineLazyModuleGetter(this, "gPageThumbnails",
   "resource:///modules/PageThumbs.jsm", "PageThumbs");
 
