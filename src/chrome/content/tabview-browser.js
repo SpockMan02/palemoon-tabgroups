@@ -343,6 +343,20 @@ let TabView = {
   },
 
   // ----------
+  // Prepares the tab view for undo close tab.
+  // Dummy for Tab Mix Plus. https://forum.palemoon.org/viewtopic.php?f=16&t=8679
+  prepareUndoCloseTab: function TabView_prepareUndoCloseTab(blankTabToRemove) {
+    return;
+  },
+  
+    // ----------
+  // Cleans up the tab view after undo close tab.
+  // Dummy for Tab Mix Plus. https://forum.palemoon.org/viewtopic.php?f=16&t=8679
+  afterUndoCloseTab: function TabView_afterUndoCloseTab() {
+    return;
+  },
+
+  // ----------
   // On move to group pop showing.
   moveToGroupPopupShowing: function TabView_moveToGroupPopupShowing(event) {
     // Update the context menu only if Panorama was already initialized or if
