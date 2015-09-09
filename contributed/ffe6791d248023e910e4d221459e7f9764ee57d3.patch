@@ -1,0 +1,35 @@
+From ffe6791d248023e910e4d221459e7f9764ee57d3 Mon Sep 17 00:00:00 2001
+From: JustOff <Off.Just.Off@gmail.com>
+Date: Thu, 3 Sep 2015 22:21:20 +0300
+Subject: [PATCH] Update tabview-browser.js
+
+Dummy for Tab Mix Plus. https://forum.palemoon.org/viewtopic.php?f=16&t=8679
+---
+ src/chrome/content/tabview-browser.js | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+diff --git a/src/chrome/content/tabview-browser.js b/src/chrome/content/tabview-browser.js
+index c267747..89eda57 100644
+--- a/src/chrome/content/tabview-browser.js
++++ b/src/chrome/content/tabview-browser.js
+@@ -343,6 +343,20 @@ let TabView = {
+   },
+ 
+   // ----------
++  // Prepares the tab view for undo close tab.
++  // Dummy for Tab Mix Plus. https://forum.palemoon.org/viewtopic.php?f=16&t=8679
++  prepareUndoCloseTab: function TabView_prepareUndoCloseTab(blankTabToRemove) {
++    return;
++  },
++  
++    // ----------
++  // Cleans up the tab view after undo close tab.
++  // Dummy for Tab Mix Plus. https://forum.palemoon.org/viewtopic.php?f=16&t=8679
++  afterUndoCloseTab: function TabView_afterUndoCloseTab() {
++    return;
++  },
++
++  // ----------
+   // On move to group pop showing.
+   moveToGroupPopupShowing: function TabView_moveToGroupPopupShowing(event) {
+     // Update the context menu only if Panorama was already initialized or if
