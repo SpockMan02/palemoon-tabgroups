@@ -7,3 +7,6 @@ Homepage for the extension: http://www.palemoon.org/tabgroups.shtml
 
 Code is licensed under the MPL 2.0, and taken from the Mozilla/Firefox source tree with miscellaneous
 fixups to make it work in Pale Moon and to provide some compatibility with other tab extensions.
+
+### References
+Relevant BMO bug: https://bugzilla.mozilla.org/show_bug.cgi?id=836758
