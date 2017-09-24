@@ -10,3 +10,27 @@ fixups to make it work in Pale Moon and to provide some compatibility with other
 
 ### References
 Relevant BMO bug: https://bugzilla.mozilla.org/show_bug.cgi?id=836758
+
+
+## Release notes
+
+### 0.2.3
+
+- Add missing defines to fix tab preview display in some cases.
+
+### 0.2.2
+
+- Update appVersion
+
+### 0.2.1
+
+- Target Pale Moon's GUID
+
+### 0.2
+
+- Miscellaneous compatibility fixes
+
+### 0.1
+
+- Initial release
+
