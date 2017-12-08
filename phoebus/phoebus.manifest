@@ -1,0 +1,11 @@
+[addon]
+id="firefox-tabgroups@mozilla.com"
+type="extension"
+release="palemoon-tabgroups-0.2.3.xpi"
+
+[metadata]
+slug="tabgroups"
+author="Moonchild"
+shortDescription="Provides Firefox Tab Groups (Panorama)."
+license="MPL-2.0"
+repository="https://github.com/wolfbeast/palemoon-tabgroups"
