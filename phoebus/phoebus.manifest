@@ -1,7 +1,7 @@
 [addon]
 id="firefox-tabgroups@mozilla.com"
 type="extension"
-release="palemoon-tabgroups-0.2.3.xpi"
+release="palemoon-tabgroups-0.3.xpi"
 
 [metadata]
 slug="tabgroups"
