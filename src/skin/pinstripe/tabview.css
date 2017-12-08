@@ -86,14 +86,14 @@ html[dir=rtl] .favicon {
   right: 6px;
   width: 16px;
   height: 16px;
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview/close.png), 0, 16, 16, 0);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/close.png), 0, 16, 16, 0);
   background-repeat: no-repeat;
 }
 .close:hover {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview/close.png), 0, 32, 16, 16);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/close.png), 0, 32, 16, 16);
 }
 .close:active {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview/close.png), 0, 48, 16, 32);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/close.png), 0, 48, 16, 32);
 }
 
 html[dir=rtl] .close {
@@ -423,7 +423,7 @@ input.name::-moz-placeholder {
   opacity: 1.0;
   font-style: italic !important;
   color: transparent;
-  background-image: url(chrome://tabgroups-plat/skin/tabview/edit-light.png);
+  background-image: url(chrome://tabgroups/skin/pinstripe/edit-light.png);
   background-repeat: no-repeat;
 }
 
@@ -461,13 +461,13 @@ html[dir=rtl] .title-shield {
 .stackExpander {
   cursor: pointer;
   bottom: 8px;
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview/stack-expander.png), 0, 48, 24, 24);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/stack-expander.png), 0, 48, 24, 24);
   width: 24px;
   height: 24px;
 }
 
 .stackExpander:hover {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview/stack-expander.png), 0, 24, 24, 0);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/stack-expander.png), 0, 24, 24, 0);
 }
 
 /* Resizable
@@ -514,26 +514,26 @@ html[dir=rtl] .iq-resizable-se {
   height: 20px;
   -moz-margin-end: 3px;
   margin-top: 0px;
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview.png), 0, 100, 20, 80);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/tabview.png), 0, 100, 20, 80);
   background-attachment: scroll;
   background-repeat: no-repeat;
   border: none;
 }
 
 #exit-button[groups="0"] {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview.png), 0, 20, 20, 0);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/tabview.png), 0, 20, 20, 0);
 }
 
 #exit-button[groups="1"] {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview.png), 0, 40, 20, 20);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/tabview.png), 0, 40, 20, 20);
 }
 
 #exit-button[groups="2"] {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview.png), 0, 60, 20, 40);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/tabview.png), 0, 60, 20, 40);
 }
 
 #exit-button[groups="3"] {
-  background-image: -moz-image-rect(url(chrome://tabgroups-plat/skin/tabview.png), 0, 80, 20, 60);
+  background-image: -moz-image-rect(url(chrome://tabgroups/skin/pinstripe/tabview.png), 0, 80, 20, 60);
 }
 
 /* Search
@@ -583,7 +583,7 @@ html[dir=rtl] .iq-resizable-se {
 }
 
 #actions #searchbutton {
-  background: transparent url(chrome://tabgroups-plat/skin/search.png) no-repeat;
+  background: transparent url(chrome://tabgroups/skin/pinstripe/search.png) no-repeat;
   border: none;
   width: 20px;
   height: 20px;
@@ -648,4 +648,3 @@ html[dir=rtl] #otherresults {
   max-width: 200px;
   height: 15px;
 }
-
