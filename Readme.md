@@ -14,6 +14,11 @@ Relevant BMO bug: https://bugzilla.mozilla.org/show_bug.cgi?id=836758
 
 ## Release notes
 
+### 0.3
+
+- Fix skin to show missing icons on Mac/Linux
+- Rewrite deprecated JS for-each-in loops to ES6
+
 ### 0.2.3
 
 - Add missing defines to fix tab preview display in some cases.
