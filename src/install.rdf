@@ -6,11 +6,12 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>firefox-tabgroups@mozilla.com</em:id>
     <em:name>Tab Groups</em:name>
-    <em:version>0.2.2</em:version>
+    <em:version>0.3</em:version>
     <em:creator>Mozilla Contributors</em:creator>
     <em:description>Provides tab groups (Panorama).</em:description>
     <em:contributor>Moonchild</em:contributor>
-    <em:contributor>JustOff</em:contributor>    
+    <em:contributor>JustOff</em:contributor>
+    <em:contributor>SpockMan02</em:contributor>
 
     <em:targetApplication>
       <Description>

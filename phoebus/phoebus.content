@@ -1,0 +1,17 @@
+Pale Moon no longer offers the Tab Groups (formerly called Panorama) feature in the browser core, to improve the efficiency of the user interface by externalizing underdeveloped code in use by only a very small percentage of Pale Moon users.
+To restore the Tab Groups/Panorama feature to Pale Moon you need to install the Pale Moon Tab Groups add-on.
+[section]How to restore the Tab Groups feature and controls[/section]
+The add-on, when installed, automatically restores the standard shortcut keys and menu items associated with Tab Groups.
+To restore the Tab Groups button, use the following steps:
+[ol]
+    [li]Right-click on a toolbar or control and select "Customize..."[/li]
+    [li]In the customization window that opens, there will be a Tab Groups control. Find it.[/li]
+    [li]Drag the Tab Groups control to any toolbar you wish. The default location for this button in previous versions of Pale Moon has been on the right side of the Tab bar.[/li]
+[/ol]
+[section]Limitations of the add-on[/section]
+Using the Pale Moon Tab Groups add-on is not guaranteed to work properly with other extensions that would interact with the Tab Groups add-on in Firefox.
+There should be no other limitations as the code in this add-on is 100% the same Tab Groups code that was present in Firefox.
+
+[b]Important:[/b] If you are a user of Tab Mix Plus, be aware that this does not work well together with this extension.
+You should use one or the other, not both, or your tab groups may show strange behavior.
+

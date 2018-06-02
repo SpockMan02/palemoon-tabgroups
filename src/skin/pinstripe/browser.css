@@ -4,7 +4,7 @@
 
 #tabview-button,
 #menu_tabview {
-  list-style-image: url(chrome://tabgroups-plat/skin/tabview.png) !important;
+  list-style-image: url(chrome://tabgroups/skin/pinstripe/tabview.png) !important;
 }
 
 #tabview-button {

@@ -5,6 +5,8 @@
 "use strict";
 
 let Cu = Components.utils;
+let Ci = Components.interfaces;
+let Cc = Components.classes;
 
 Cu.import("chrome://tabgroups/content/utils.jsm");
 
