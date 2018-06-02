@@ -13,7 +13,6 @@ let TabView = {
   _initFrameCallbacks: [],
   GROUPS_IDENTIFIER: "tabview-groups",
   VISIBILITY_IDENTIFIER: "tabview-visibility",
-  _numberOfTriesToToggleTabView: 0,
 
   // ----------
   get windowTitle() {
@@ -26,22 +25,12 @@ let TabView = {
 
   // ----------
   init: function TabView_init() {
-    this._numberOfTriesToToggleTabView++;
-    // prompt user for confirmation to ToggleTabView if the window isn't as wide as SpockFan02's screen
-    var widthOfWindow = document.getElementById("main-window").scrollWidth;
-    if (widthOfWindow < 1440 && this._numberOfTriesToToggleTabView < 2) {
-      window.alert("Yo dude, the window isn't as wide as SpockFan02's screen, so it might mess up your groups. ' You sure?");
-      this._numberOfTriesToToggleTabView++;
-      return;
-    }
-    
     // disable the ToggleTabView command for popup windows
     goSetCommandEnabled("Browser:ToggleTabView", window.toolbar.visible);
     if (!window.toolbar.visible)
       return;
 
     if (this._initialized) {
-      this._numberOfTriesToToggleTabView = 0;
       return;
     }
 

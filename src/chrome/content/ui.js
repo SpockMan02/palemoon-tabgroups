@@ -87,6 +87,10 @@ let UI = {
   // Variable: _originalSmoothScroll
   // Used to keep track of the tab strip smooth scroll value.
   _originalSmoothScroll: null,
+  
+  // Variable: _numberOfTriesToToggleTabView
+  // Used to keep track of how many times the user has tried to go to Groups view.
+  _numberOfTriesToToggleTabView: 0,
 
   // Preference name that tells whether AeroPeek is enabled.
   PREF_AEROPEEK_ENABLED: "browser.taskbar.previews.enable",
@@ -435,6 +439,17 @@ let UI = {
   showTabView: function UI_showTabView(zoomOut) {
     if (this.isTabViewVisible() || this._isChangingVisibility)
       return;
+    
+    this._numberOfTriesToToggleTabView++;
+    // prompt user for confirmation to ToggleTabView if the window isn't as wide as SpockFan02's screen
+    var widthOfWindow = gWindow.document.getElementById("main-window").scrollWidth;
+    if (widthOfWindow < 1440 && this._numberOfTriesToToggleTabView < 2) {
+      window.alert("Yo dude, the window isn't as wide as SpockFan02's screen, so it might mess up your groups. ' You sure?");
+      var stringToLog = "Aidan test. Number of tries is " + this._numberOfTriesToToggleTabView;
+      console.log(stringToLog);
+      this._numberOfTriesToToggleTabView++;
+      return;
+    }
 
     this._isChangingVisibility = true;
 
@@ -507,6 +522,8 @@ let UI = {
 
       TabItems.resumePainting();
     }
+    this._numberOfTriesToToggleTabView = 0;
+    console.log("Probably successfully went to Groups view -Aidan");
   },
 
   // ----------
